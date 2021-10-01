@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,800;0,900;1,100;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color:#c1e6c6; */
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url("pictures/mallbest2.jpg");
+    background-size: cover;
+}
+.know-us{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+
+}
+.heading{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    width: 60%;
+    
+
+}
+.heading h1{
+    color: crimson;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+
+}
+.heading p{
+    margin-top: 30px;
+    font-size: 28px;
+    color: rgba(187, 179, 179, 0.7);
+    padding: 10px;
+    margin: 10px 0 10px;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+}
+.aside-image{
+    width: 40%;
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7));
+}
+.aside-image img{
+    width: 100%;
+    border-radius: 10px;
+}

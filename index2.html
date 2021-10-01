@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcuts icon" type="image/png" href="pictures\MirrorsFavicon.png" >
+    <title>Mirrors|Shopping Mall</title>
+    <script src="https://kit.fontawesome.com/49fab169ed.js" crossorigin="anonymous"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBumoe2ZNspcmq2rQK7Sg39tUjB_VaGYec",
+          authDomain: "mirrorsshoppingmall.firebaseapp.com",
+          projectId: "mirrorsshoppingmall",
+          storageBucket: "mirrorsshoppingmall.appspot.com",
+          messagingSenderId: "946114498525",
+          appId: "1:946114498525:web:8b50bde52779a48482b034",
+          measurementId: "G-HB13KT9LB5"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+</head>
+
+    <!-- home section -->
+    
+    <section class="sectionBody" id="home">
+
+        <!-- top navigation bar -->
+
+
+            <nav>           
+                <div class="logo"> <a href="index2.html"><span>M</span>irrors <span>Shopping</span>Mall</a></div>
+                    <ul class="navItems">
+                        <li id="home"><i class="fas fa-home"></i><a href="index2.html">home</a> </li>
+                        <li id="shops"><i class="fas fa-shopping-cart"></i><a href="shop.html" target="_blank">shops</a>
+                           
+                        </li>
+                        <li id="about"><i class="fas fa-address-card"></i><a href="about.html" target="_blank">about</a> </li>
+                        <li id="contacts"><i class="fas fa-id-card-alt"></i><a href="contact.html" target="_blank"> contacts</a> </li>
+                    </ul>
+            </nav>          
+            <div class="sectionHead">
+                <h1><span>welcome to</span> <br> mirrors shopping mall</h1>
+                <p>where shopping is the only bussiness we have <br> <br> earger to fullfill the customer satisfaction daily as much as possible </p>
+            </div>
+            <div class="moreAbout">
+                <a href="#shop-with-us" class="explore">explore us</a> 
+            </div>
+
+    
+    </section>
+    <hr class="line">
+ 
+
+    <!-- shop with us section -->
+
+    <section class="section-shop" id="shop-with-us">
+
+        
+        <div class="section-header">
+            <h1>SHOP WITH US</h1>
+            <P>We offer a variety of products and various patners have their shops in our mall</P>
+        </div>
+
+        <div class="row">
+            <!-- <h2 class="card-header">Gymnastic</h2> -->
+                <div class="cards">
+                    <img src="pictures/dj.jpg">                    
+                    <div class="layer-top">
+                        <h3>Entertainment</h3>
+                        <p id="layer-para">We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                        <div class="moreAbout">
+                            <a href="" class="explore-more" id="layer-link">explore us more</a> 
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="cards">
+                <img src="pictures/boardroom3.jpg">
+                <div class="layer-top">
+                    <h3>Banking</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                   </div>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="pictures/merrygoround.jpg">
+                <div class="layer-top">
+                    <h3>entertainment games</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                   </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="row">
+            <!-- <h2 class="card-header">Gymnastic</h2> -->
+            <div class="cards">
+                <img src="pictures/pharmacy1">
+                <div class="layer-top">
+                    <h3>Health</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                   </div>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="pictures/hotel1.jpg">
+                <div class="layer-top">
+                    <h3>Hotel and Meeting Rooms</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                    </div>
+                </div>
+            </div><div class="cards">
+                <img src="pictures/clothes1.jpg">
+                <div class="layer-top">
+                    <h3>Family Wadrobe</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="row">
+            <!-- <h2 class="card-header">Gymnastic</h2> -->
+            <div class="cards">
+                <img src="pictures/carsparking1.jpg">
+                <div class="layer-top">
+                    <h3>car parking</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="pictures/electronics1.jpg">
+                <div class="layer-top">
+                    <h3>electronics accessories</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="pictures/fruits1.jpg">
+                <div class="layer-top">
+                    <h3>Food and Beverages</h3>
+                    <p>We offer gymn services for our <br>esteemend customers, through various cliets </p>
+                    <div class="moreAbout">
+                        <a href="" class="explore-more">explore us more</a> 
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+       
+
+    </section>
+    <hr class="line">
+
+    <section class="slider">
+        <div class="slider-header">
+            <h1>OUR PATNERS</h1>
+            <P>We have a great and awesome group of patners ready for your success</P>
+        </div>
+        <div class="slider-track">
+            <div class="slide">
+                <img src="pictures/JAVA.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/LCWAIKIKI.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/nikePNG.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/absa.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/BONFIRE.jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/BATA.jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/SAF.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/Vans_logo_PNG9-1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/CARREFOUR.jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/JAVA.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/LCWAIKIKI.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/nikePNG.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/absa.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/BONFIRE.jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/BATA.jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/SAF.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/Vans_logo_PNG9-1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="pictures/CARREFOUR.jfif" alt="">
+            </div>
+        </div>    
+     
+
+    </section>
+    <hr class="line">
+
+
+    <!-- footer and contact section -->
+    <section class="footer">
+        <div class="logo" id="footer-logo"> <a href="index2.html"><span>M</span>irrors <span>Shopping</span>Mall</a></div>
+        <div class="links">
+            <ul class="footer-links">
+                <li><a href="#home">home</a> </li>
+                <li><a href="#shop-with-us">shops</a></li>
+                <li><a href="#about">about</a> </li>
+                <li><a href="#contacts">contacts</a> </li>
+            </ul>
+        </div>
+        <div class="social-media">
+           <a href="https://www.facebook.com/"> <img src="pictures/icons8-facebook-50.png" ></a>
+            <a href="https://www.instagram.com/"><img src="pictures/icons8-instagram-logo-48.png" ></a>
+            <a href="https://www.whatsapp.com/?lang=en"><img src="pictures/icons8-whatsapp-48.png" ></a>
+            <a href="https://twitter.com/"><img src="pictures/icons8-twitter-48.png" ></a>
+            <p class="copyright">&copy; copyright <br>All Rights Reserved </p>
+
+        </div>
+        <div class="contacts">
+            <div class="contacts">
+                <h3>email</h3>
+                <p>mirrors@gmail.com</p>
+                <p>TEL: 0798761722</p>
+            </div>
+        </div>
+    </section>
+   
+
+
+
+
+    
+</body>
+</html>

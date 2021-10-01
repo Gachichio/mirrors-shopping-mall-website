@@ -1,0 +1,172 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.7)),url("pictures/mallbest2.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    margin-top: 10px;
+    position: relative;
+    padding: 50px 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.content h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.content p{
+    color: rgba(187, 179, 179, 0.7);
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+.container{
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;  
+    justify-content: center;
+    
+}
+.contact-items{
+    padding-bottom: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+.icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    background: #fff;
+   
+    
+}
+.box{
+    position: relative;
+    padding:20px 0px;
+    display: flex;
+}
+
+.text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px;
+
+}
+.text h3{
+    color: #00bcd4;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.text p{
+padding-bottom: 20px;
+}
+
+.contact-form{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+   
+    
+}
+.contact-form h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+
+
+}
+.input-box{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+
+}
+.input-box input
+{
+    width: 100%;
+    padding:5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid#333;
+    outline:none ;
+    resize: none;
+
+    
+    
+}
+.input-box textarea{
+    width: 100%;
+    padding:5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid#333;
+    outline:none ;
+    resize: none;
+}
+.input-box span{
+    position: absolute;
+    left: 0;
+    padding:5px 0;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#666;
+
+    
+}
+.input-box input:focus~span,
+.input-box input:valid~span,
+.input-box textarea:focus~span,
+.input-box textarea:focus~span{
+    color: crimson;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.input-box input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcuts icon" type="image/png" href="pictures\MirrorsFavicon.png" >
+    <title>Contact | MirrorsShoppingMall</title>
+    <script src="https://kit.fontawesome.com/49fab169ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section class="contact-nav">
+   
+        <nav>
+            <!-- <div class="logoimg">  <img src="pictures/logo.png"></div> -->
+             <div class="logo"> <a href="index2.html"><span>M</span>irrors <span>Shopping</span>Mall</a></div>
+             <ul class="navItems">
+                 <li id="home"><a href="index2.html">home</a> </li>
+                 <li id="shops"><a href="shop.html" target="_blank">shops</a></li>
+                 <li id="about"><a href="about.html" target="_blank">about</a> </li>
+                 <li id="contacts"><a href="contact.html" target="_blank">contacts</a> </li>
+             </ul>
+         </nav>          
+    </section>
+
+
+
+    <section class="contact">
+        <div class="content">
+            <h1>Contact Us</h1>
+            <p>We are always open and incontact with our clients <br> for any necessary assistance</p>
+
+        </div>
+        <div class="container">
+            <div class="contact-items">
+                <div class="box">
+                    <div class="contact-details">
+                        <!-- <div class="icon"><i class="far fa-envelope"></i>
+                        </div> -->
+                       <div class="text">
+                        <h3>email</h3>
+                        <p>customerfeedback@MirrorsShoppingMall.com</p>
+
+                      
+
+                       </div>                 
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contact-details">
+                        <!-- <div class="icon"><i class="fas fa-phone"></i>
+                        </div> -->
+                       <div class="text">
+                        <h3>Phone Numbers</h3>
+                        <p>0798761722 <br> 0704556511 </p>
+                       </div>                 
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contact-details">
+                        <!-- <div class="icon"><i class="fas fa-map-marker-alt"></i>
+                        </div> -->
+                       <div class="text">
+                        <h3>Address</h3>
+                        <p>P.O BOX <br>615-10300 <br> RUIRU </p>
+                       </div>                 
+
+                    </div>
+                </div>
+                       
+            
+               
+
+            </div>
+
+            <?php include('contact-fetch.php') 
+            
+            
+            ?>
+
+               
+            <div class="contact-form">
+          
+                <form  id="contact-form" method="POST" action="contact-fetch.php" >
+
+                    <h2>send message</h2>
+                    <div class="input-box">
+                        <input type="text" name="name" required="required" >
+                        <span>Fullname</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" required="required" >
+                        <span>Email</span>
+                    </div>
+                    <div class="input-box">
+                    <textarea name="message" id="" required="required" ></textarea>
+                        <span>type your message...</span>
+                    </div>
+                    <div class="input-box">
+                         <input type="submit" name="submit" value="EMAIL US" >
+                        
+                    </div>
+                </form>
+              
+                
+            </div>
+
+        </div>
+
+      
+
+
+            
+                               
+        
+    </section>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</body>
+</html>
